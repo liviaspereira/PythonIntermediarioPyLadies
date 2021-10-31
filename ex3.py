@@ -3,7 +3,7 @@ formato “dd/mm/aaaa”, e que retorne a idade atual de acordo com o dia de hoj
 
 def idadeAtual (dataDeNascimento):
     dia, mes, ano = map(int, dataDeNascimento.split('/'))
-    if mes >7:
+    if mes > 7:
         if dia > 28:
             return 2020 - ano - 1
         else:
