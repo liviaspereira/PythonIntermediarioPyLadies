@@ -1,7 +1,7 @@
 '''geradores só faz quando você mandar é usado para muitos dados, é chamado de preguiçosa, nunca 
 faz nada previamente.'''
 
-x = 1000000
+x = 100
 
 def geradores(y):
   for i in range(y):
